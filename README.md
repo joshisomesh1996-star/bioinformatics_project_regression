@@ -76,7 +76,8 @@ bio_informatics_project/
 │   ├── requirements.txt               # Dependencies list  
 │   ├── mols/                          # Temporary molecule storage  
 │   ├── sample_input.txt               # Example input file  
-│  
+│   ├── screenshots                    # Screenshots    
+|
 ├── acetylcholinesterase_bioinformatics_part_1.py  
 ├── acetylcholinesterase_bioinformatics_part_2.py  
 ├── acetylcholinesterase_bioinformatics_part_3.py  
@@ -107,8 +108,10 @@ CHEMBL1825 CCN(CC)CCCC(C)Nc1ccc2c(c1)OCO2
 
 ## 🖥️ Streamlit App (Screenshots)
 <p align="center">
-  <img src="screenshots/1.png" width="360" alt="Upload file interface">
-  <img src="screenshots/2.png" width="360" alt="Prediction results table">
+  <img src="app/screenshots/1.png" width="360">
+  <img src="app/screenshots/2.png" width="360">
+   <img src="app/screenshots/3.png" width="360">
+   <img src="app/screenshots/4.png" width="360">
 </p>
 > Add your screenshots inside the `/screenshots` folder to display them here.
 
