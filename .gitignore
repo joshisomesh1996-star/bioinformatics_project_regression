@@ -1,0 +1,67 @@
+# --- Python general ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+.env.bak/
+
+# --- Streamlit & cache ---
+.streamlit/
+.cache/
+*/.ipynb_checkpoints/
+
+# --- Generated and temporary data ---
+*.smi
+*.txt
+mols/
+predicted_pIC50_results.csv
+input_molecules.smi
+sample_input.txt
+
+# --- Model and large data files ---
+*.pkl
+*.joblib
+*.h5
+*.npy
+*.npz
+
+# --- CSV files ---
+# Ignore all CSVs except descriptor_list.csv
+*.csv
+!descriptor_list.csv
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- IDE/project-specific ---
+.idea/
+.vscode/
+*.iml
+
+# --- Backups and temp ---
+*.bak
+*.swp
+*.tmp
+*.old
+
+# --- Exclude only inside app subfolder ---
+app/mols/
+app/venv/
+app/*.pkl
+app/*.smi
+app/*.txt
+app/predicted_pIC50_results.csv
+app/input_molecules.smi
+app/sample_input.txt
+app/*.csv
+!app/descriptor_list.csv
